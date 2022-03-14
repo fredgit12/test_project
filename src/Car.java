@@ -34,8 +34,8 @@ public class Car {
         return mMake; 
     }
     
-    public void getPetrolAverage(){
-        System.out.println("PetrolAverage"); 
+    public void getPetrolAvg(){
+        System.out.println("PetrolAvg"); 
     }
 
     public String getModel(){

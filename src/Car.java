@@ -33,6 +33,10 @@ public class Car {
     public String getMake(){
         return mMake; 
     }
+    
+    public void getPetrolAverage(){
+        System.out.println("PetrolAverage"); 
+    }
 
     public String getModel(){
         return mModel; 

@@ -17,7 +17,7 @@ public class CarTest {
     @Test 
     public void testModel(){
         System.out.println("Running Test 2!");
-        Assertions.assertEquals(model, "Civic","Expected vehicle model did not match actual vehicle model"); 
+        Assertions.assertEquals(model, testCar.getModel(),"Expected vehicle model did not match actual vehicle model"); 
     }
     
 }
